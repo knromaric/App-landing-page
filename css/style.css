@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body{
+    margin: 0; 
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    height:100%; 
+}
+.headerbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background2.jpg');
+    background-size: cover;
+    color: #FFF; 
+    padding: 4%;
+    height: 100%;
+}
+
+.logo {
+    width: 40%;
+    margin-top: 30%;
+}
+.imgright{
+    width: 60%;
+}
+
+.carousel-inner img{
+    margin: auto; 
+}
+
+h3{
+   color: #633991; 
+    font-size: 55px; 
+    font-weight: 500;
+}
+
+.gallery{
+    padding: 50px 20px;
+}
+
+.features{
+    padding: 50px 20px;
+}
+.card{
+    margin:0 auto; 
+    float: none;
+    margin-bottom: 10px; 
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.52);
+}
+
+.footer{
+    background: #ff5f6d;
+    padding: 50px 20px;
+    color: #fff;
+    margin: 0;
+}
+
+.footer button{
+    background-color:#fff; 
+    color: #ff5f6d;
+    height: 60px; 
+    padding: 10px; 
+    width:80%; 
+    border-radius: 80px 80px 80px 80px;
+    -moz-border-radius: 80px 80px 80px 80px;
+    -webkit-border-radius: 80px 80px 80px 80px;
+    margin-top: 5%; 
+    border:none;
+}
+
+.footer button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.3);
+    background-color:#FF1F5A;
+    color:#fff;
+}
+
+.footerbrand{
+    background-color: #181818;
+    padding: 40px;
+}
+.logofooter{
+    width:100%;
+}
